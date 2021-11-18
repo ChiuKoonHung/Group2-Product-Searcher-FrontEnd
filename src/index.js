@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './App.css';
 import SearchBarInput from './frontend/search-bar';
 import reportWebVitals from './reportWebVitals';
 
