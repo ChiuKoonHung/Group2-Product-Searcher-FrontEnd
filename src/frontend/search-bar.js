@@ -9,10 +9,10 @@ function SearchBarInput() {
     const handleInput = e => {
         let searchWord = e.target.value.toLowerCase();
         let result = [];
-        console.log(searchWord);
+        // console.log(searchWord);
         if(searchWord) {
             result = allData.filter((data) => {
-                return data.name.toLowerCase().search(searchWord) != -1;
+                return data.name.toLowerCase().search(searchWord) !== -1;
                 });
         } 
         setFilteredData(result);
